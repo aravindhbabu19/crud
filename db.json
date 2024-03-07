@@ -1,0 +1,24 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "checked": false,
+      "name": "pen"
+    },
+    {
+      "id": 2,
+      "checked": true,
+      "name": "pencil"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "name": "paper"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "name": "php"
+    }
+  ]
+}
