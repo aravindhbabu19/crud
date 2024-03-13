@@ -1,13 +1,13 @@
 import React from 'react'
 
-const AddItem = ({newItem,setNewItem,handleSubmit}) => {
+const AddItem = ({newItem,setNewItem,handlesubmit}) => {
   return (
     <div>
-        <form onSubmit={handleSubmit}>
-        <label htmlFor='add'>Add items</label>
-        <input type="text" id='add' value={newItem} onChange={(e)=>setNewItem(e.target.value)}/>
-        <button type='submit'>submit</button>
-        </form>
+        <form onClick={handlesubmit} >
+       <label htmlFor="nam">add</label> 
+       <input type="text" id="nam" value={newItem} onChange={(e)=>setNewItem(e.target.value)}/>
+       <button type='submit'>addnew</button>
+       </form>
     </div>
   )
 }
